@@ -1,0 +1,20 @@
+{
+  "name": "cdn",
+  "version": "1.0.0",
+  "description": "Combine multiple JavaScript/CSS files into a single .js or .css link.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "terser ./src/js/htmx.min-1.8.0.js ./src/js/_hyperscript.min-0.9.7.js ./src/js/mastercss-1.36.0.js -o ./dist/script.js -c -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioqode/cdn.git"
+  },
+  "author": "ioqode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ioqode/cdn/issues"
+  },
+  "homepage": "https://github.com/ioqode/cdn#readme"
+}
